@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4274C22D1A85BA1200772E8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4274C22C1A85BA1200772E8E /* main.m */; };
+		4274C2301A85BA1200772E8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4274C22F1A85BA1200772E8E /* AppDelegate.m */; };
+		4274C2361A85BA1200772E8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4274C2341A85BA1200772E8E /* Main.storyboard */; };
+		4274C2381A85BA1300772E8E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4274C2371A85BA1200772E8E /* Images.xcassets */; };
+		4274C23B1A85BA1300772E8E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4274C2391A85BA1300772E8E /* LaunchScreen.xib */; };
+		4274C2471A85BA1300772E8E /* LegoCubeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4274C2461A85BA1300772E8E /* LegoCubeTests.m */; };
+		4274C2991A85BDDB00772E8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4274C2951A85BDDB00772E8E /* ViewController.m */; };
+		4274C29C1A85BDFD00772E8E /* ModelBaseMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 4274C29B1A85BDFD00772E8E /* ModelBaseMgr.m */; };
+		4274C29F1A85BEBC00772E8E /* CoreDataMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 4274C29E1A85BEBC00772E8E /* CoreDataMgr.m */; };
+		4274C2F11A85CA1A00772E8E /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4274C2EF1A85CA1A00772E8E /* Common.framework */; };
+		4274C2F41A85CA3200772E8E /* Resource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4274C2F31A85CA3200772E8E /* Resource.framework */; };
+		4274C2F51A85CA3D00772E8E /* Resource.framework in Resources */ = {isa = PBXBuildFile; fileRef = 4274C2F31A85CA3200772E8E /* Resource.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4274C2411A85BA1300772E8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4274C21F1A85BA1200772E8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4274C2261A85BA1200772E8E;
+			remoteInfo = LegoCube;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4274C2271A85BA1200772E8E /* LegoCube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LegoCube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4274C22B1A85BA1200772E8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4274C22C1A85BA1200772E8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4274C22E1A85BA1200772E8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4274C22F1A85BA1200772E8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4274C2351A85BA1200772E8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4274C2371A85BA1200772E8E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4274C23A1A85BA1300772E8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4274C2401A85BA1300772E8E /* LegoCubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LegoCubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4274C2451A85BA1300772E8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4274C2461A85BA1300772E8E /* LegoCubeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LegoCubeTests.m; sourceTree = "<group>"; };
+		4274C2941A85BDDB00772E8E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4274C2951A85BDDB00772E8E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4274C29A1A85BDFD00772E8E /* ModelBaseMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelBaseMgr.h; sourceTree = "<group>"; };
+		4274C29B1A85BDFD00772E8E /* ModelBaseMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelBaseMgr.m; sourceTree = "<group>"; };
+		4274C29D1A85BEBC00772E8E /* CoreDataMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataMgr.h; sourceTree = "<group>"; };
+		4274C29E1A85BEBC00772E8E /* CoreDataMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataMgr.m; sourceTree = "<group>"; };
+		4274C2EF1A85CA1A00772E8E /* Common.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Common.framework; path = "../../../../../../Users/cc/Library/Developer/Xcode/DerivedData/LegoCube-hhrnnsmdenekfxdrxprhhfokaifa/Build/Products/Debug-iphoneos/Common.framework"; sourceTree = "<group>"; };
+		4274C2F31A85CA3200772E8E /* Resource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Resource.framework; path = "../../../../../../Users/cc/Library/Developer/Xcode/DerivedData/LegoCube-hhrnnsmdenekfxdrxprhhfokaifa/Build/Products/Debug-iphoneos/Resource.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4274C2241A85BA1200772E8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4274C2F41A85CA3200772E8E /* Resource.framework in Frameworks */,
+				4274C2F11A85CA1A00772E8E /* Common.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4274C23D1A85BA1300772E8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4274C21E1A85BA1200772E8E = {
+			isa = PBXGroup;
+			children = (
+				4274C2291A85BA1200772E8E /* LegoCube */,
+				4274C2431A85BA1300772E8E /* LegoCubeTests */,
+				4274C27F1A85BB7A00772E8E /* Frameworks */,
+				4274C2281A85BA1200772E8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4274C2281A85BA1200772E8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4274C2271A85BA1200772E8E /* LegoCube.app */,
+				4274C2401A85BA1300772E8E /* LegoCubeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4274C2291A85BA1200772E8E /* LegoCube */ = {
+			isa = PBXGroup;
+			children = (
+				4274C22E1A85BA1200772E8E /* AppDelegate.h */,
+				4274C22F1A85BA1200772E8E /* AppDelegate.m */,
+				4274C2341A85BA1200772E8E /* Main.storyboard */,
+				4274C2371A85BA1200772E8E /* Images.xcassets */,
+				4274C2391A85BA1300772E8E /* LaunchScreen.xib */,
+				4274C2911A85BDDB00772E8E /* Classes */,
+				4274C22A1A85BA1200772E8E /* Supporting Files */,
+			);
+			path = LegoCube;
+			sourceTree = "<group>";
+		};
+		4274C22A1A85BA1200772E8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4274C22B1A85BA1200772E8E /* Info.plist */,
+				4274C22C1A85BA1200772E8E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4274C2431A85BA1300772E8E /* LegoCubeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4274C2461A85BA1300772E8E /* LegoCubeTests.m */,
+				4274C2441A85BA1300772E8E /* Supporting Files */,
+			);
+			path = LegoCubeTests;
+			sourceTree = "<group>";
+		};
+		4274C2441A85BA1300772E8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4274C2451A85BA1300772E8E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4274C27F1A85BB7A00772E8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4274C2F31A85CA3200772E8E /* Resource.framework */,
+				4274C2EF1A85CA1A00772E8E /* Common.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4274C2911A85BDDB00772E8E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4274C2921A85BDDB00772E8E /* Categorys */,
+				4274C2931A85BDDB00772E8E /* Controllers */,
+				4274C2961A85BDDB00772E8E /* Models */,
+				4274C2981A85BDDB00772E8E /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4274C2921A85BDDB00772E8E /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categorys;
+			sourceTree = "<group>";
+		};
+		4274C2931A85BDDB00772E8E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4274C2941A85BDDB00772E8E /* ViewController.h */,
+				4274C2951A85BDDB00772E8E /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4274C2961A85BDDB00772E8E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4274C29A1A85BDFD00772E8E /* ModelBaseMgr.h */,
+				4274C29B1A85BDFD00772E8E /* ModelBaseMgr.m */,
+				4274C2971A85BDDB00772E8E /* CoreDataMgr */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4274C2971A85BDDB00772E8E /* CoreDataMgr */ = {
+			isa = PBXGroup;
+			children = (
+				4274C29D1A85BEBC00772E8E /* CoreDataMgr.h */,
+				4274C29E1A85BEBC00772E8E /* CoreDataMgr.m */,
+			);
+			path = CoreDataMgr;
+			sourceTree = "<group>";
+		};
+		4274C2981A85BDDB00772E8E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4274C2261A85BA1200772E8E /* LegoCube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4274C24A1A85BA1300772E8E /* Build configuration list for PBXNativeTarget "LegoCube" */;
+			buildPhases = (
+				4274C2231A85BA1200772E8E /* Sources */,
+				4274C2241A85BA1200772E8E /* Frameworks */,
+				4274C2251A85BA1200772E8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LegoCube;
+			productName = LegoCube;
+			productReference = 4274C2271A85BA1200772E8E /* LegoCube.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4274C23F1A85BA1300772E8E /* LegoCubeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4274C24D1A85BA1300772E8E /* Build configuration list for PBXNativeTarget "LegoCubeTests" */;
+			buildPhases = (
+				4274C23C1A85BA1300772E8E /* Sources */,
+				4274C23D1A85BA1300772E8E /* Frameworks */,
+				4274C23E1A85BA1300772E8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4274C2421A85BA1300772E8E /* PBXTargetDependency */,
+			);
+			name = LegoCubeTests;
+			productName = LegoCubeTests;
+			productReference = 4274C2401A85BA1300772E8E /* LegoCubeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4274C21F1A85BA1200772E8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = PinguoSDK;
+				TargetAttributes = {
+					4274C2261A85BA1200772E8E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					4274C23F1A85BA1300772E8E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 4274C2261A85BA1200772E8E;
+					};
+				};
+			};
+			buildConfigurationList = 4274C2221A85BA1200772E8E /* Build configuration list for PBXProject "LegoCube" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4274C21E1A85BA1200772E8E;
+			productRefGroup = 4274C2281A85BA1200772E8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4274C2261A85BA1200772E8E /* LegoCube */,
+				4274C23F1A85BA1300772E8E /* LegoCubeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4274C2251A85BA1200772E8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4274C2F51A85CA3D00772E8E /* Resource.framework in Resources */,
+				4274C2361A85BA1200772E8E /* Main.storyboard in Resources */,
+				4274C23B1A85BA1300772E8E /* LaunchScreen.xib in Resources */,
+				4274C2381A85BA1300772E8E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4274C23E1A85BA1300772E8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4274C2231A85BA1200772E8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4274C2301A85BA1200772E8E /* AppDelegate.m in Sources */,
+				4274C2991A85BDDB00772E8E /* ViewController.m in Sources */,
+				4274C29F1A85BEBC00772E8E /* CoreDataMgr.m in Sources */,
+				4274C22D1A85BA1200772E8E /* main.m in Sources */,
+				4274C29C1A85BDFD00772E8E /* ModelBaseMgr.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4274C23C1A85BA1300772E8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4274C2471A85BA1300772E8E /* LegoCubeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4274C2421A85BA1300772E8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4274C2261A85BA1200772E8E /* LegoCube */;
+			targetProxy = 4274C2411A85BA1300772E8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4274C2341A85BA1200772E8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4274C2351A85BA1200772E8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4274C2391A85BA1300772E8E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4274C23A1A85BA1300772E8E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4274C2481A85BA1300772E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4274C2491A85BA1300772E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4274C24B1A85BA1300772E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Volumes/WoRk/GitHubForCc/LegoCube/Source/Common/build/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/LegoCube-hhrnnsmdenekfxdrxprhhfokaifa/Build/Products/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/LegoCube-hhrnnsmdenekfxdrxprhhfokaifa/Build/Products/Release-iphoneos",
+					"/Volumes/WoRk/GitHubForCc/LegoCube/Source/Resource/build/Release-iphoneos",
+				);
+				INFOPLIST_FILE = LegoCube/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4274C24C1A85BA1300772E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Volumes/WoRk/GitHubForCc/LegoCube/Source/Common/build/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/LegoCube-hhrnnsmdenekfxdrxprhhfokaifa/Build/Products/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/LegoCube-hhrnnsmdenekfxdrxprhhfokaifa/Build/Products/Release-iphoneos",
+					"/Volumes/WoRk/GitHubForCc/LegoCube/Source/Resource/build/Release-iphoneos",
+				);
+				INFOPLIST_FILE = LegoCube/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4274C24E1A85BA1300772E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LegoCubeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LegoCube.app/LegoCube";
+			};
+			name = Debug;
+		};
+		4274C24F1A85BA1300772E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LegoCubeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LegoCube.app/LegoCube";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4274C2221A85BA1200772E8E /* Build configuration list for PBXProject "LegoCube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4274C2481A85BA1300772E8E /* Debug */,
+				4274C2491A85BA1300772E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4274C24A1A85BA1300772E8E /* Build configuration list for PBXNativeTarget "LegoCube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4274C24B1A85BA1300772E8E /* Debug */,
+				4274C24C1A85BA1300772E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4274C24D1A85BA1300772E8E /* Build configuration list for PBXNativeTarget "LegoCubeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4274C24E1A85BA1300772E8E /* Debug */,
+				4274C24F1A85BA1300772E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4274C21F1A85BA1200772E8E /* Project object */;
+}
