@@ -18,7 +18,7 @@
 		4274C2901A85BC8C00772E8E /* NSManagedObject+c_unitils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4274C28E1A85BC8C00772E8E /* NSManagedObject+c_unitils.m */; };
 		4274C2E11A85C29B00772E8E /* CPathManger.h in Headers */ = {isa = PBXBuildFile; fileRef = 4274C2DF1A85C29B00772E8E /* CPathManger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4274C2E21A85C29B00772E8E /* CPathManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4274C2E01A85C29B00772E8E /* CPathManger.m */; };
-		4274C2EA1A85C89E00772E8E /* Resource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4274C2E91A85C89E00772E8E /* Resource.framework */; };
+		4274C2F71A85CB2D00772E8E /* Resource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4274C2F61A85CB2D00772E8E /* Resource.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,10 +44,9 @@
 		4274C2861A85BC0600772E8E /* CCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCoreDataManager.m; sourceTree = "<group>"; };
 		4274C28D1A85BC8C00772E8E /* NSManagedObject+c_unitils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+c_unitils.h"; sourceTree = "<group>"; };
 		4274C28E1A85BC8C00772E8E /* NSManagedObject+c_unitils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+c_unitils.m"; sourceTree = "<group>"; };
-		4274C2CA1A85BFAE00772E8E /* Resource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Resource.framework; path = "/Users/cc/Library/Developer/Xcode/DerivedData/LegoCube-hhrnnsmdenekfxdrxprhhfokaifa/Build/Products/Debug-iphoneos/Resource.framework"; sourceTree = "<absolute>"; };
 		4274C2DF1A85C29B00772E8E /* CPathManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPathManger.h; sourceTree = "<group>"; };
 		4274C2E01A85C29B00772E8E /* CPathManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPathManger.m; sourceTree = "<group>"; };
-		4274C2E91A85C89E00772E8E /* Resource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Resource.framework; path = "../../../../../../Users/cc/Library/Developer/Xcode/DerivedData/LegoCube-hhrnnsmdenekfxdrxprhhfokaifa/Build/Products/Release-iphoneos/Resource.framework"; sourceTree = "<group>"; };
+		4274C2F61A85CB2D00772E8E /* Resource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Resource.framework; path = "../../../../../../Users/cc/Library/Developer/Xcode/DerivedData/LegoCube-hhrnnsmdenekfxdrxprhhfokaifa/Build/Products/Debug-iphoneos/Resource.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4274C2EA1A85C89E00772E8E /* Resource.framework in Frameworks */,
+				4274C2F71A85CB2D00772E8E /* Resource.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,8 +172,7 @@
 		4274C2CC1A85BFB500772E8E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4274C2E91A85C89E00772E8E /* Resource.framework */,
-				4274C2CA1A85BFAE00772E8E /* Resource.framework */,
+				4274C2F61A85CB2D00772E8E /* Resource.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
