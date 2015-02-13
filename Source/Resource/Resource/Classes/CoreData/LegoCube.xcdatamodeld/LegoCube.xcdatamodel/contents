@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14C109" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
-    <entity name="Entity" representedClassName="Entity" syncable="YES"/>
+    <entity name="DLClass" representedClassName="DLClass" syncable="YES">
+        <attribute name="dl_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dl_key" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="unities" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DLUnity" inverseName="classes" inverseEntity="DLUnity" syncable="YES"/>
+    </entity>
+    <entity name="DLColorClass" representedClassName="DLColorClass" parentEntity="DLClass" syncable="YES">
+        <attribute name="dl_colorX" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="DLUnity" representedClassName="DLUnity" syncable="YES">
+        <attribute name="dl_key" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dl_number" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="classes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DLClass" inverseName="unities" inverseEntity="DLClass" syncable="YES"/>
+    </entity>
     <elements>
-        <element name="Entity" positionX="-63" positionY="-18" width="128" height="45"/>
+        <element name="DLClass" positionX="-54" positionY="-9" width="128" height="88"/>
+        <element name="DLUnity" positionX="-45" positionY="0" width="128" height="88"/>
+        <element name="DLColorClass" positionX="-54" positionY="27" width="128" height="58"/>
     </elements>
 </model>
