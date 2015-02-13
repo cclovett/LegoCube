@@ -11,8 +11,6 @@
 		4274C2B61A85BF3600772E8E /* Resource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4274C2AA1A85BF3500772E8E /* Resource.framework */; };
 		4274C2BD1A85BF3600772E8E /* ResourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4274C2BC1A85BF3600772E8E /* ResourceTests.m */; };
 		4274C2D71A85C05600772E8E /* LegoCube.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4274C2D51A85C05600772E8E /* LegoCube.xcdatamodeld */; };
-		4274C2DC1A85C0AD00772E8E /* Entity.h in Headers */ = {isa = PBXBuildFile; fileRef = 4274C2DA1A85C0AD00772E8E /* Entity.h */; };
-		4274C2DD1A85C0AD00772E8E /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4274C2DB1A85C0AD00772E8E /* Entity.m */; };
 		4274C2E61A85C71F00772E8E /* RGlobe.h in Headers */ = {isa = PBXBuildFile; fileRef = 4274C2E41A85C71F00772E8E /* RGlobe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4274C2E71A85C71F00772E8E /* RGlobe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4274C2E51A85C71F00772E8E /* RGlobe.m */; };
 /* End PBXBuildFile section */
@@ -35,8 +33,6 @@
 		4274C2BB1A85BF3600772E8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4274C2BC1A85BF3600772E8E /* ResourceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResourceTests.m; sourceTree = "<group>"; };
 		4274C2D61A85C05600772E8E /* LegoCube.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LegoCube.xcdatamodel; sourceTree = "<group>"; };
-		4274C2DA1A85C0AD00772E8E /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
-		4274C2DB1A85C0AD00772E8E /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entity.m; sourceTree = "<group>"; };
 		4274C2E41A85C71F00772E8E /* RGlobe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGlobe.h; sourceTree = "<group>"; };
 		4274C2E51A85C71F00772E8E /* RGlobe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGlobe.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,18 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				4274C2D51A85C05600772E8E /* LegoCube.xcdatamodeld */,
-				4274C2D91A85C0A000772E8E /* CoreDataFiles */,
 			);
 			path = CoreData;
-			sourceTree = "<group>";
-		};
-		4274C2D91A85C0A000772E8E /* CoreDataFiles */ = {
-			isa = PBXGroup;
-			children = (
-				4274C2DA1A85C0AD00772E8E /* Entity.h */,
-				4274C2DB1A85C0AD00772E8E /* Entity.m */,
-			);
-			path = CoreDataFiles;
 			sourceTree = "<group>";
 		};
 		4274C2E31A85C70500772E8E /* Globe */ = {
@@ -158,7 +144,6 @@
 			files = (
 				4274C2E61A85C71F00772E8E /* RGlobe.h in Headers */,
 				4274C2B01A85BF3500772E8E /* Resource.h in Headers */,
-				4274C2DC1A85C0AD00772E8E /* Entity.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4274C2DD1A85C0AD00772E8E /* Entity.m in Sources */,
 				4274C2D71A85C05600772E8E /* LegoCube.xcdatamodeld in Sources */,
 				4274C2E71A85C71F00772E8E /* RGlobe.m in Sources */,
 			);
@@ -453,6 +437,7 @@
 				4274C2C21A85BF3600772E8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4274C2C31A85BF3600772E8E /* Build configuration list for PBXNativeTarget "ResourceTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +446,7 @@
 				4274C2C51A85BF3600772E8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

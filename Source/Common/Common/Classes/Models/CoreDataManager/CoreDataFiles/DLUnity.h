@@ -1,5 +1,5 @@
 //
-//  Entity.h
+//  DLUnity.h
 //  Resource
 //
 //  Created by Cc on 15/2/7.
@@ -10,7 +10,7 @@
 #import <CoreData/CoreData.h>
 
 
-@interface Entity : NSManagedObject
+@interface DLUnity : NSManagedObject
 
 
 @end
