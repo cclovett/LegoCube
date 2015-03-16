@@ -7,6 +7,7 @@
 //
 
 #import "ModelBaseMgr.h"
+#import <Common/Common.h>
 
 @class CCoreDataManagedObjectContext;
 

@@ -11,6 +11,7 @@
 @interface UIButton (c_unitils)
 
 - (void)c_addTarget:(id)target
-             action:(SEL)action forControlEvents:(UIControlEvents)controlEvents;
+             action:(SEL)action
+   forControlEvents:(UIControlEvents)controlEvents;
 
 @end
