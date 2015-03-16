@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4207DE971AB6A0F1009025F1 /* DLUnity+c_unitils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4207DE951AB6A0F1009025F1 /* DLUnity+c_unitils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4207DE981AB6A0F1009025F1 /* DLUnity+c_unitils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4207DE961AB6A0F1009025F1 /* DLUnity+c_unitils.m */; };
 		425E23781A864DDB00B5495C /* DLStyleUnity.h in Headers */ = {isa = PBXBuildFile; fileRef = 425E23741A864DDB00B5495C /* DLStyleUnity.h */; };
 		425E23791A864DDB00B5495C /* DLStyleUnity.m in Sources */ = {isa = PBXBuildFile; fileRef = 425E23751A864DDB00B5495C /* DLStyleUnity.m */; };
-		425E237A1A864DDB00B5495C /* DLUnity.h in Headers */ = {isa = PBXBuildFile; fileRef = 425E23761A864DDB00B5495C /* DLUnity.h */; };
+		425E237A1A864DDB00B5495C /* DLUnity.h in Headers */ = {isa = PBXBuildFile; fileRef = 425E23761A864DDB00B5495C /* DLUnity.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		425E237B1A864DDB00B5495C /* DLUnity.m in Sources */ = {isa = PBXBuildFile; fileRef = 425E23771A864DDB00B5495C /* DLUnity.m */; };
 		425E23871A878D6C00B5495C /* UIButton+c_unitils.h in Headers */ = {isa = PBXBuildFile; fileRef = 425E23851A878D6C00B5495C /* UIButton+c_unitils.h */; };
 		425E23881A878D6C00B5495C /* UIButton+c_unitils.m in Sources */ = {isa = PBXBuildFile; fileRef = 425E23861A878D6C00B5495C /* UIButton+c_unitils.m */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4207DE951AB6A0F1009025F1 /* DLUnity+c_unitils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DLUnity+c_unitils.h"; sourceTree = "<group>"; };
+		4207DE961AB6A0F1009025F1 /* DLUnity+c_unitils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DLUnity+c_unitils.m"; sourceTree = "<group>"; };
 		425E23741A864DDB00B5495C /* DLStyleUnity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLStyleUnity.h; sourceTree = "<group>"; };
 		425E23751A864DDB00B5495C /* DLStyleUnity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLStyleUnity.m; sourceTree = "<group>"; };
 		425E23761A864DDB00B5495C /* DLUnity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLUnity.h; sourceTree = "<group>"; };
@@ -81,6 +85,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4207DE941AB6A0D8009025F1 /* DLUnity+Category */ = {
+			isa = PBXGroup;
+			children = (
+				4207DE951AB6A0F1009025F1 /* DLUnity+c_unitils.h */,
+				4207DE961AB6A0F1009025F1 /* DLUnity+c_unitils.m */,
+			);
+			path = "DLUnity+Category";
+			sourceTree = "<group>";
+		};
 		425E23731A864DDB00B5495C /* CoreDataFiles */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +201,7 @@
 		4274C28B1A85BC8C00772E8E /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				4207DE941AB6A0D8009025F1 /* DLUnity+Category */,
 				425E23841A878D3D00B5495C /* UIButton+Category */,
 				4274C28C1A85BC8C00772E8E /* NSManagedObject+Category */,
 			);
@@ -227,13 +241,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4207DE971AB6A0F1009025F1 /* DLUnity+c_unitils.h in Headers */,
+				425E237A1A864DDB00B5495C /* DLUnity.h in Headers */,
 				4274C2E11A85C29B00772E8E /* CPathManger.h in Headers */,
 				425E23871A878D6C00B5495C /* UIButton+c_unitils.h in Headers */,
 				4274C2891A85BC0600772E8E /* CCoreDataManager.h in Headers */,
 				4274C28F1A85BC8C00772E8E /* NSManagedObject+c_unitils.h in Headers */,
 				4274C2871A85BC0600772E8E /* CCoreDataManagedObjectContext.h in Headers */,
 				425E23781A864DDB00B5495C /* DLStyleUnity.h in Headers */,
-				425E237A1A864DDB00B5495C /* DLUnity.h in Headers */,
 				4274C2601A85BAD400772E8E /* Common.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +353,7 @@
 				4274C28A1A85BC0600772E8E /* CCoreDataManager.m in Sources */,
 				4274C2E21A85C29B00772E8E /* CPathManger.m in Sources */,
 				425E23881A878D6C00B5495C /* UIButton+c_unitils.m in Sources */,
+				4207DE981AB6A0F1009025F1 /* DLUnity+c_unitils.m in Sources */,
 				425E237B1A864DDB00B5495C /* DLUnity.m in Sources */,
 				4274C2881A85BC0600772E8E /* CCoreDataManagedObjectContext.m in Sources */,
 				425E23791A864DDB00B5495C /* DLStyleUnity.m in Sources */,

@@ -10,10 +10,14 @@
 
 @protocol MainTableViewDelegate <NSObject>
 
-
-
 @end
 
 @interface MainTableView : UITableView
+
+@property (nonatomic,weak) id<MainTableViewDelegate> dgDelegate;
+
+@end
+
+@interface MainTableViewCell : UITableViewCell
 
 @end

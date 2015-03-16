@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14C109" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
-    <entity name="DLClass" representedClassName="DLClass" syncable="YES">
+    <entity name="Class" representedClassName="DLClass" syncable="YES">
         <attribute name="dl_description" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="dl_key" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="unities" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DLUnity" inverseName="classes" inverseEntity="DLUnity" syncable="YES"/>
+        <relationship name="unities" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Unity" inverseName="classes" inverseEntity="Unity" syncable="YES"/>
     </entity>
-    <entity name="DLColorClass" representedClassName="DLColorClass" parentEntity="DLClass" syncable="YES">
+    <entity name="ColorClass" representedClassName="DLColorClass" parentEntity="Class" syncable="YES">
         <attribute name="dl_colorX" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
     </entity>
-    <entity name="DLUnity" representedClassName="DLUnity" syncable="YES">
+    <entity name="StyleClass" representedClassName="DLStyleClass" parentEntity="Class" syncable="YES">
+        <attribute name="dl_name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Unity" representedClassName="DLUnity" syncable="YES">
+        <attribute name="dl_displayImage" optional="YES" attributeType="Binary" syncable="YES"/>
         <attribute name="dl_key" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="dl_number" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
-        <relationship name="classes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DLClass" inverseName="unities" inverseEntity="DLClass" syncable="YES"/>
+        <relationship name="classes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Class" inverseName="unities" inverseEntity="Class" syncable="YES"/>
     </entity>
     <elements>
-        <element name="DLClass" positionX="-54" positionY="-9" width="128" height="88"/>
-        <element name="DLUnity" positionX="-45" positionY="0" width="128" height="88"/>
-        <element name="DLColorClass" positionX="-54" positionY="27" width="128" height="58"/>
+        <element name="Class" positionX="43" positionY="-198" width="128" height="88"/>
+        <element name="ColorClass" positionX="45" positionY="-13" width="128" height="58"/>
+        <element name="Unity" positionX="-164" positionY="-198" width="128" height="103"/>
+        <element name="StyleClass" positionX="196" positionY="-18" width="128" height="58"/>
     </elements>
 </model>
